@@ -8,7 +8,7 @@ import constants
 
 class Checker(object):
 
-    keyboard_error_multiplier = 1.5
+    keyboard_error_multiplier = 1.25
     bigram_multiplier = 2
 
     def __init__(self, data_files_path='data_files',

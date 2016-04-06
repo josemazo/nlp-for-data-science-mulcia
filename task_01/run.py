@@ -38,4 +38,8 @@ if __name__ == '__main__':
 
     while True:
         user_input = input('Type a sentence to check: ')
-        process_input(user_input)
+        if user_input == 'exit':
+            sys.exit(0)
+
+        else:
+            process_input(user_input)
