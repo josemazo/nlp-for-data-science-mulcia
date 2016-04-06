@@ -1,4 +1,4 @@
-Data (text) resources
+Somo data (text) resources
 =====================
 
 https://dumps.wikimedia.org/eswiki/20160305/
