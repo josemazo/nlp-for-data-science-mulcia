@@ -1,5 +1,5 @@
-Somo data (text) resources
-=====================
+Some data (text) sources
+========================
 
 https://dumps.wikimedia.org/eswiki/20160305/
 http://extensions.libreoffice.org/extension-center/diccionario-espanol
