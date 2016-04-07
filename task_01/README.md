@@ -15,4 +15,4 @@ python run.py
 ## Improvements
 * Peter Norvig's and other future work.
 * A better training data.
-* And of course, the usage evaluation methods, which we'll see in the course.
+* And of course, the usage of evaluation methods, which we'll see in the course.

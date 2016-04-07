@@ -24,7 +24,14 @@ def process_input(sentence):
 
 
 def signal_handler(signal_handled, frame):
-    print('\nBye bye!')
+    exiting()
+
+
+def exiting(initial_jump=True):
+    bye_bye = 'Bye bye!'
+    if initial_jump:
+        bye_bye = '\n{0}'.format(bye_bye)
+    print(bye_bye)
     sys.exit(0)
 
 if __name__ == '__main__':
@@ -39,7 +46,7 @@ if __name__ == '__main__':
     while True:
         user_input = input('Type a sentence to check: ')
         if user_input == 'exit':
-            sys.exit(0)
+            exiting(False)
 
         else:
             process_input(user_input)
